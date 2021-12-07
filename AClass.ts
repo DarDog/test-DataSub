@@ -1,5 +1,5 @@
-export abstract class AClass {
-    private numbers: number[];
+export default abstract class AClass {
+    protected numbers: number[];
 
     constructor(n) {
         this.fill(n);
@@ -20,7 +20,7 @@ export abstract class AClass {
     }
 
 
-    public factorial(): number[] {
+    protected factorial(): number[] {
         return this.numbers.map(number => this.getFactorial(number))
     }
 
