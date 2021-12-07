@@ -1,6 +1,6 @@
 import AClass from './AClass';
 
-class Class1 extends AClass {
+export default class Class1 extends AClass {
     constructor(n) {
         super(n);
     }
